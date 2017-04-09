@@ -6,6 +6,7 @@
 ##Changed Features
 	updated the database to have everything but the menu (GL)
 	added the all, get, create, delete, exists, update, and add methods (GL)
+	fixed problem with checkout
 ##Completed Feature
 
 	frontend steps 8-17 (GL)
