@@ -90,7 +90,7 @@ class Shopping extends Application {
 	public function checkout() {
 		$order = new Order($this->session->userdata('order'));
 		// ignore invalid requests
-		if (! $order->validate())
+		if ( $order->validate() == false)
 			redirect('/shopping');
 		
 		$order->save();
